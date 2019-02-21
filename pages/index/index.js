@@ -5,7 +5,9 @@ const duration = 2000
 Page({
   data: {
     baseUrl: "https://southernbox.github.io/IceAndFireServer/",
-    tabs: ['人物', '家族', '历史', '城堡'],
+    // tabs: ['人物', '家族', '历史', '城堡'],
+    tabs: ['全部', '重装', '输出', '支援'],
+    // types: ['all', 'tank', 'damage', 'support'],
     types: ['person', 'house', 'history', 'castle'],
     //当前选中的 tab
     activeTab: 0,
