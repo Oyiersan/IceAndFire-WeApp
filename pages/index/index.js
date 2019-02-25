@@ -69,11 +69,11 @@ Page({
     * 点击tab切换 
     */
   swichTab: function (event) {
-    if (this.data.currentTab == event.currentTarget.id) {
+    if (this.data.activeTab == event.detail.current) {
       return false;
     } else {
       this.setData({
-        currentType: event.currentTarget.id
+        activeTab: event.detail.current
       })
     }
   },
