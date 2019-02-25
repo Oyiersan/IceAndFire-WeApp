@@ -4,8 +4,8 @@
 
 // 此处主机域名是腾讯云解决方案分配的域名
 // 小程序后台服务解决方案：https://www.qcloud.com/solution/la
-
-var baseUrl = "https://southernbox.github.io/IceAndFireServer/"
+//""https://southernbox.github.io/IceAndFireServer/
+var baseUrl = "https://www.oyiersan.com/OWServer/"
 
 var config = {
 
@@ -13,7 +13,7 @@ var config = {
     baseUrl,
 
     // 登录地址，用于建立会话
-    getContent: `${baseUrl}content.json`
+    getContent: `${baseUrl}list.json`
 };
 
 module.exports = config

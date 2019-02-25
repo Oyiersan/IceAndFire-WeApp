@@ -4,15 +4,13 @@ const duration = 2000
 
 Page({
   data: {
-    baseUrl: "https://southernbox.github.io/IceAndFireServer/",
-    // tabs: ['人物', '家族', '历史', '城堡'],
+    baseUrl: "https://www.oyiersan.com/OWServer/",
     tabs: ['全部', '重装', '输出', '支援'],
-    // types: ['all', 'tank', 'damage', 'support'],
-    types: ['person', 'house', 'history', 'castle'],
+    types: ['all', 'tank', 'damage', 'support'],
     //当前选中的 tab
     activeTab: 0,
     //当前选中的类型
-    currentType: "person",
+    currentType: "all",
     //屏幕宽度
     windowWidth: 0,
     //单个 tab 宽度
