@@ -41,7 +41,7 @@ page {
 .scroll-view {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 94%;
 }
 
 .scroll-view .scroll-view-wrapper {
